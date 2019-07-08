@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    outline: none;
+    text-decoration: none;
+    word-wrap: break-word;
+}
+
+p {
+    font-family: $copy-font;
+    font-weight: 300;
+    padding: 8px 0;
+    color: $base-color;
+    text-decoration: none;
+    font-size: 1em;
+    line-height: 2em;
+}
+
+a {
+    color: $base-color;
+}
+
+body {
+    background: #fff;
+    font-size: 14px;
+}
+
+h1,
+h2,
+h3 {
+    font-family: $header-font;
+    font-weight: 400;
+    color: $base-color;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+h3 {
+    font-size: 1em;
+}

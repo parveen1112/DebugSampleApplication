@@ -1,0 +1,7 @@
+{
+    "paths": {
+  	    "routes": "/app/routes",
+        "middleware": "/app/middleware",
+        "views": "/public/templates"
+    }
+}

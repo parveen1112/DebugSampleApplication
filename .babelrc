@@ -1,0 +1,23 @@
+{
+    "presets": [
+        "env",
+        "preact"
+    ],
+    "plugins": [
+        "syntax-dynamic-import",
+        "transform-decorators-legacy",
+        "transform-class-properties",
+        [
+            "transform-object-rest-spread",
+            {
+                "useBuiltIns": true
+            }
+        ],
+        [
+            "transform-react-jsx",
+            {
+                "pragma": "h"
+            }
+        ]
+    ]
+}

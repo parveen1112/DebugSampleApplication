@@ -1,0 +1,26 @@
+@import '../styles/variable.scss';
+@import '../styles/typography.scss';
+
+.app-shell {
+    margin: 0 auto;
+    background-color: $bg-grey;
+    min-height: 100vh;
+}
+
+
+.story-page {
+    max-width: 600px;
+    margin: 84px auto 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.article-page {
+    min-height: 1024px;
+}
+
+.loading {
+    background-color: $bg-grey;
+    text-align: center;
+    padding: 15px;
+    font-family: $copy-font;
+}
