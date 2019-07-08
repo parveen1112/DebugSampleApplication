@@ -20,7 +20,6 @@ module.exports = merge(common, {
     devtool: 'source-map',
     entry: {
         main: [
-            "intersection-observer",
             `${CSR_APP_DIR}/browser.js`
         ]
     },
